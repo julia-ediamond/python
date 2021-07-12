@@ -22,3 +22,16 @@ if "blueberries" in chilli_wishlist:
 else:
     chilli_wishlist.append("blueberries")
     print(chilli_wishlist)
+
+chilli_wishlist = [['igloo'],  # bed
+                   ['donut toy', 'tennis ball', 'crocodile toy'],  # toys
+                   ['chicken', 'peanut butter'],  # treats
+                   ['cardboard box', 'kong', 'dig mat']  # activity basedtoys
+                   ]
+
+print(chilli_wishlist[2][1])
+print(chilli_wishlist[1][2])
+chilli_wishlist[1].insert(2, "star")
+print(chilli_wishlist[1][2])
+chilli_wishlist.append(['couch', 'fridge'])
+print(chilli_wishlist)
