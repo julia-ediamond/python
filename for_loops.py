@@ -1,4 +1,3 @@
-from typing import ItemsView
 
 
 for number in range(10):
@@ -7,6 +6,7 @@ for number in range(10):
 for numbers in range(10):
     print(numbers)
 
+#start, stop, step
 for num in range(1, 11, 2):
     print(num)
 
