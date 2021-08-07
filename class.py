@@ -40,3 +40,7 @@ comment2 = Comment("rosa77", "sooo cute", 0)
 # davey123 lol you're so silly 3
 print(comment1.username, comment1.text, comment1.likes)
 print(comment2.username, comment2.text, comment2.likes)  # rosa77 sooo cute 0
+
+
+class Person:
+    def __init__
